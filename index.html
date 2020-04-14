@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
     <script
       src="https://kit.fontawesome.com/fa6de8624b.js"
@@ -34,7 +35,7 @@
           <i class="far fa-comment"></i>
         </span>
         <span class="header__icon">
-          <i class="fas fa-cog "></i>
+          <i class="fas fa-cog"></i>
         </span>
       </div>
     </header>
@@ -42,24 +43,32 @@
       <ul class="chats__list">
         <li class="chats__char chat">
           <a href="chat.html">
-            <div class="chat__column">
-              <img class="chat__avatar g-avatar" src="images/avatar.jpg" />
-              <div class="chat__content">
-                <span class="chat__username">
-                  Jaehee
-                </span>
-                <span class="chat__preview">love you</span>
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <img src="images/avatar.jpg" class="m-avartar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Lui
+                  </span>
+                  <span class="friend__bottom-text">
+                    I'm hungry
+                  </span>
+                </div>
               </div>
-            </div>
-            <div class="chat__column">
-              <span class="chat__timestamp">Yesterdat</span>
+              <div class="friend__column">
+                <div class="friend__now-listening">
+                  <span class="chat__timestamp">
+                    March 8
+                  </span>
+                </div>
+              </div>
             </div>
           </a>
         </li>
       </ul>
     </main>
     <nav class="nav">
-      <ul calss="nav__list">
+      <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
             <i class="far fa-user"></i>
@@ -67,6 +76,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
