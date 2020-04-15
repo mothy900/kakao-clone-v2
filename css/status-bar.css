@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
-  color: #656565;
+  opacity: 0.7;
+  padding-right: 35px;
   position: fixed;
   width: 100%;
   top: 0px;
