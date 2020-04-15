@@ -2,9 +2,7 @@
   display: flex;
   justify-content: space-around;
 }
-.find {
-  margin-top: 50px;
-}
+
 .find .header-btn {
   margin-top: 50px;
   display: flex;
